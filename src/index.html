@@ -18,9 +18,10 @@
 <body>
     <!-- header start here  -->
     <header class="container px-5 font-poppins">
-        <div class="flex items-center justify-end md:justify-between py-[22px] gap-14 md:gap-0 md:border-b border-b-gray-1">
+        <div
+            class="flex items-center justify-end md:justify-between py-[22px] gap-14 md:gap-0 md:border-b border-b-gray-1">
             <div>
-                <img src="./img/logo.png" class="w-[160px] md:w-56" alt="Logo">
+                <img src="./img/logo.png" class="w-40 md:w-48" alt="Logo">
             </div>
             <div class="relative">
                 <!-- Profile Section with ID -->
@@ -33,7 +34,7 @@
                         <img src="./img/dropdown.svg" alt="Dropdown">
                     </div>
                 </div>
-    
+
                 <!-- Dropdown Menu -->
                 <div id="dropdownMenu"
                     class="absolute right-0 mt-2 w-48 bg-white border border-gray-200 rounded-lg shadow-lg hidden">
@@ -49,10 +50,10 @@
 
     <main class="font-poppins">
         <!-- Examination start here -->
-        <section class="pt-[8px] md:pt-8 lg:py-[50px] container px-5 ">
+        <section class="pt-[8px] md:pt-8 lg:py-8 container px-5 ">
             <div class="bg-gray-2 rounded-3xl lg:rounded-[40px]">
                 <h1
-                    class="text-center font-semibold lg:font-bold text-[26px] lg:text-[32px] xl:text-[40px] max-w-6xl mx-auto px-5 py-[30px] lg:py-[70px] capitalize">
+                    class="text-center font-semibold lg:font-bold text-[26px] lg:text-[32px] xl:text-[36px] max-w-[265px] sm:max-w-6xl mx-auto px-5 py-[30px] lg:py-14 capitalize">
                     Examination analysis of your
                     property for wind, solar and energy storage In 2 minutes to the result</h1>
             </div>
@@ -61,7 +62,7 @@
         <!-- wrapper  -->
         <div>
             <!-- Steps top start  -->
-            <div class="py-10 xl:py-[50px] max-w-[1051px] mx-auto px-5 lg:px-0">
+            <div class="py-10 lg:py-0 max-w-[1051px] mx-auto px-5 lg:px-0">
                 <div
                     class="flex justify-between relative max-w-[335px] md:max-w-[728px] lg:max-w-[1004px] xl:max-w-full mx-auto">
                     <!-- start -->
@@ -150,20 +151,20 @@
             <div class="">
                 <!-- single item start  -->
                 <div id="step1" class="step-content">
-                    <div class="lg:py-[50px] max-w-[1051px] mx-auto px-5 lg:px-0">
+                    <div class="lg:py-10 max-w-[850px] mx-auto px-5">
                         <h2 class="text-base md:text-2xl text-black-1 font-semibold text-center">In which federal state
                             is
                             the
                             property located
                         </h2>
                         <div
-                            class="max-w-[1051px] border border-[max-w-[1051px]] rounded-[30px] flex items-center justify-center py-8 md:py-[53px] mt-[30px] lg:mt-[60px]">
-                            <img src="./img/map.png" class="max-w-[221px] md:max-w-[457px]" alt="Map">
+                            class="border border-[#E7F2F8] rounded-[30px] flex items-center justify-center py-8 md:py-10 mt-[30px] ">
+                            <img src="./img/map.png" class="max-w-[221px] md:max-w-[350px]" alt="Map">
                         </div>
 
 
                     </div>
-                    <div class="py-10 lg:py-0 xl:py-[50px] text-center">
+                    <div class="py-10 lg:py-0 text-center">
                         <button onclick="nextStep()"
                             class="text-white text-[22px] xl:text-3xl font-semibold px-[130px] py-[22px] lg:py-[28px] bg-green-2 hover:bg-black-1 rounded-[20px] inline-block border border-green-2">Next</button>
                     </div>
@@ -172,13 +173,13 @@
                 <!-- single item end  -->
                 <!-- single item start  -->
                 <div id="step2" class="step-content hidden">
-                    <div class="lg:py-[50px] container px-5">
+                    <div class="lg:py-10 container px-5">
                         <h2 class="text-base md:text-2xl text-black-1 font-semibold text-center">Which category best
                             fits
                             your property?
                         </h2>
                         <div
-                            class="flex gap-2 md:gap-5 xl:gap-8 2xl:gap-10 mt-9 lg:mt-[60px] overflow-x-scroll lg:overflow-hidden">
+                            class="flex gap-2 md:gap-5 xl:gap-8 2xl:gap-10 mt-9 lg:mt-10 overflow-x-scroll lg:overflow-hidden">
                             <div
                                 class="flex-shrink-0 w-[45%] sm:w-[50%] lg:w-[23%] p-[7px] lg:p-4 pb-[6px] shadow-userboxshadow rounded-[20px] lg:rounded-[30px] border border-[#E7F2F8]">
                                 <img src="./img/arable-land.png" class="w-full rounded-2xl lg:rounded-[26px]"
@@ -213,50 +214,52 @@
                         </div>
 
                     </div>
-                    <div class="py-10 lg:py-0 xl:py-[50px] max-w-[682px] mx-auto px-5">
-                        <div class="flex flex-col-reverse md:flex-row items-center justify-between gap-[22px] text-center">
+                    <div class="py-10 lg:py-0  max-w-[682px] mx-auto px-5">
+                        <div
+                            class="flex flex-col-reverse md:flex-row items-center justify-between gap-[22px] text-center">
                             <button onclick="previousStep()"
                                 class="w-full md:w-auto text-green-2 hover:text-white text-[22px] xl:text-3xl font-semibold flex-1 py-[22px] lg:py-[28px] bg-transparent hover:bg-black-1 rounded-[20px] block border border-green-2">Back</button>
                             <button onclick="nextStep()"
                                 class="w-full md:w-auto text-white text-[22px] xl:text-3xl font-semibold flex-1 py-[22px] lg:py-[28px] bg-green-2 hover:bg-black-1 rounded-[20px] block border border-green-2">Next</button>
                         </div>
                     </div>
-                    
+
                 </div>
                 <!-- single item end  -->
                 <!-- single item start  -->
                 <div id="step3" class="step-content hidden">
-                    <div class="lg:py-[50px] container px-5">
+                    <div class="lg:py-10 max-w-[850px] mx-auto px-5">
                         <h2 class="text-base md:text-2xl text-black-1 font-semibold text-center">Select your parcel on
                             the
                             map for
                             inspection
                         </h2>
-                        <div class="mt-[30px] lg:mt-[60px]">
+                        <div class="mt-[30px]">
                             <img src="./img/googlemap1.png" class="w-full" alt="Google Map">
                         </div>
 
 
                     </div>
-                    <div class="py-10 lg:py-0 xl:py-[50px] max-w-[682px] mx-auto px-5">
-                        <div class="flex flex-col-reverse md:flex-row items-center justify-between gap-[22px] text-center">
+                    <div class="py-10 lg:py-0  max-w-[682px] mx-auto px-5">
+                        <div
+                            class="flex flex-col-reverse md:flex-row items-center justify-between gap-[22px] text-center">
                             <button onclick="previousStep()"
                                 class="w-full md:w-auto text-green-2 hover:text-white text-[22px] xl:text-3xl font-semibold flex-1 py-[22px] lg:py-[28px] bg-transparent hover:bg-black-1 rounded-[20px] block border border-green-2">Back</button>
                             <button onclick="nextStep()"
                                 class="w-full md:w-auto text-white text-[22px] xl:text-3xl font-semibold flex-1 py-[22px] lg:py-[28px] bg-green-2 hover:bg-black-1 rounded-[20px] block border border-green-2">Next</button>
                         </div>
                     </div>
-                    
+
                 </div>
                 <!-- single item end  -->
                 <!-- single item start  -->
                 <div id="step4" class="step-content hidden">
-                    <div class="lg:py-[50px] container px-5">
+                    <div class="lg:py-10 max-w-[850px] mx-auto px-5">
                         <div class="">
                             <img src="./img/googlemap3.png" class="w-full" alt="Google Map">
                         </div>
                     </div>
-                    <div class="py-[50px] 2xl:pb-[150px] container px-5">
+                    <div class="py-10 lg:py-0 2xl:pb-[50px] container px-5">
                         <div class="shadow-userboxshadow border border-[#E7F2F8] rounded-[30px] p-5 xl:p-10">
                             <!-- table box  -->
                             <div
@@ -316,7 +319,8 @@
                             </div>
                             <!-- bar  -->
                             <div class="">
-                                <h2 class="text-lg lg:text-2xl text-black-1 font-semibold text-center pt-10 xl:pt-[70px] pb-5 lg:pb-10 capitalize">
+                                <h2
+                                    class="text-lg lg:text-2xl text-black-1 font-semibold text-center pt-10 xl:pt-[70px] pb-5 lg:pb-10 capitalize">
                                     The
                                     analysis runs
                                 </h2>
@@ -324,7 +328,9 @@
                                     class="bg-[#F4F8FA] py-5 lg:py-[60px] px-5 xl:px-[90px] rounded-2xl lg:rounded-[30px] grid grid-cols-1 md:grid-cols-2 gap-x-[60px] 2xl:gap-x-[130px] md:gap-y-10 gap-y-[30px] 2xl:gap-y-[60px]">
                                     <!-- single item  -->
                                     <div class="space-y-4 lg:space-y-5">
-                                        <p class="font-opensans font-semibold text-[15px] lg:text-lg 2xl:text-xl text-gray-3 capitalize">Property
+                                        <p
+                                            class="font-opensans font-semibold text-[15px] lg:text-lg 2xl:text-xl text-gray-3 capitalize">
+                                            Property
                                             cadastre</p>
                                         <span class="block bg-[#B5DBD9] h-[10px] lg:h-4 rounded-[60px]">
                                             <span class="block bg-green-1 w-1/2 h-[10px] lg:h-4 rounded-[60px]"></span>
@@ -332,45 +338,60 @@
                                     </div>
                                     <!-- single item  -->
                                     <div class="space-y-4 lg:space-y-5">
-                                        <p class="font-opensans font-semibold text-[15px] lg:text-lg 2xl:text-xl text-gray-3 capitalize">Editing</p>
+                                        <p
+                                            class="font-opensans font-semibold text-[15px] lg:text-lg 2xl:text-xl text-gray-3 capitalize">
+                                            Editing</p>
                                         <span class="block bg-[#B5DBD9] h-[10px] lg:h-4 rounded-[60px]">
-                                            <span class="block bg-green-1 w-[90%] h-[10px] lg:h-4 rounded-[60px]"></span>
+                                            <span
+                                                class="block bg-green-1 w-[90%] h-[10px] lg:h-4 rounded-[60px]"></span>
                                         </span>
                                     </div>
                                     <!-- single item  -->
                                     <div class="space-y-4 lg:space-y-5">
-                                        <p class="font-opensans font-semibold text-[15px] lg:text-lg 2xl:text-xl text-gray-3 capitalize">Soil
+                                        <p
+                                            class="font-opensans font-semibold text-[15px] lg:text-lg 2xl:text-xl text-gray-3 capitalize">
+                                            Soil
                                             quality</p>
                                         <span class="block bg-[#B5DBD9] h-[10px] lg:h-4 rounded-[60px]">
-                                            <span class="block bg-green-1 w-[60%] h-[10px] lg:h-4 rounded-[60px]"></span>
+                                            <span
+                                                class="block bg-green-1 w-[60%] h-[10px] lg:h-4 rounded-[60px]"></span>
                                         </span>
                                     </div>
                                     <!-- single item  -->
                                     <div class="space-y-4 lg:space-y-5">
-                                        <p class="font-opensans font-semibold text-[15px] lg:text-lg 2xl:text-xl text-gray-3 capitalize">Nature and
+                                        <p
+                                            class="font-opensans font-semibold text-[15px] lg:text-lg 2xl:text-xl text-gray-3 capitalize">
+                                            Nature and
                                             environmental protection</p>
                                         <span class="block bg-[#B5DBD9] h-[10px] lg:h-4 rounded-[60px]">
-                                            <span class="block bg-green-1 w-[70%] h-[10px] lg:h-4 rounded-[60px]"></span>
+                                            <span
+                                                class="block bg-green-1 w-[70%] h-[10px] lg:h-4 rounded-[60px]"></span>
                                         </span>
                                     </div>
                                     <!-- single item  -->
                                     <div class="space-y-4 lg:space-y-5">
-                                        <p class="font-opensans font-semibold text-[15px] lg:text-lg 2xl:text-xl text-gray-3 capitalize">River
+                                        <p
+                                            class="font-opensans font-semibold text-[15px] lg:text-lg 2xl:text-xl text-gray-3 capitalize">
+                                            River
                                             network &
                                             infrastructure</p>
                                         <span class="block bg-[#B5DBD9] h-[10px] lg:h-4 rounded-[60px]">
-                                            <span class="block bg-green-1 w-[20%] h-[10px] lg:h-4 rounded-[60px]"></span>
+                                            <span
+                                                class="block bg-green-1 w-[20%] h-[10px] lg:h-4 rounded-[60px]"></span>
                                         </span>
                                     </div>
                                     <!-- single item  -->
                                     <div class="space-y-4 lg:space-y-5">
-                                        <p class="font-opensans font-semibold text-[15px] lg:text-lg 2xl:text-xl text-gray-3 capitalize">Energy trip
+                                        <p
+                                            class="font-opensans font-semibold text-[15px] lg:text-lg 2xl:text-xl text-gray-3 capitalize">
+                                            Energy trip
                                         </p>
                                         <span class="block bg-[#B5DBD9] h-[10px] lg:h-4 rounded-[60px]">
-                                            <span class="block bg-green-1 w-[45%] h-[10px] lg:h-4 rounded-[60px]"></span>
+                                            <span
+                                                class="block bg-green-1 w-[45%] h-[10px] lg:h-4 rounded-[60px]"></span>
                                         </span>
                                     </div>
-                            
+
                                 </div>
                             </div>
                         </div>
@@ -388,8 +409,7 @@
 
         <section class="lg:mt-10 mb-[50px] xl:mb-[150px] max-w-[682px] mx-auto px-5 sm:px-0">
 
-            <div
-                class="bg-gray-2 rounded-[30px] py-[30px] lg:py-[60px] text-center">
+            <div class="bg-gray-2 rounded-[30px] py-[30px] lg:py-[60px] text-center">
                 <h3 class="text-[32px] lg:text-[40px] font-bold text-green-1">9.300+</h3>
                 <p class="text-lg font-normal text-black-2 capitalize pt-3.5">areas examined</p>
             </div>
@@ -466,7 +486,7 @@
             </div>
         </div>
     </footer>
-    
+
     <script src="./js/dropDown.js"></script>
     <script src="./js/step.js"></script>
 </body>

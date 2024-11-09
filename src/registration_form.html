@@ -18,9 +18,10 @@
 <body>
     <!-- header start here  -->
     <header class="container px-5 font-poppins">
-        <div class="flex items-center justify-end md:justify-between py-[22px] gap-14 md:gap-0 md:border-b border-b-gray-1">
+        <div
+            class="flex items-center justify-end md:justify-between py-[22px] gap-14 md:gap-0 md:border-b border-b-gray-1">
             <div>
-                <img src="./img/logo.png" class="w-[160px] md:w-56" alt="Logo">
+                <img src="./img/logo.png" class="w-40 md:w-48" alt="Logo">
             </div>
             <div class="relative">
                 <!-- Profile Section with ID -->
@@ -33,7 +34,7 @@
                         <img src="./img/dropdown.svg" alt="Dropdown">
                     </div>
                 </div>
-    
+
                 <!-- Dropdown Menu -->
                 <div id="dropdownMenu"
                     class="absolute right-0 mt-2 w-48 bg-white border border-gray-200 rounded-lg shadow-lg hidden">
@@ -49,94 +50,97 @@
 
     <main class="font-poppins">
         <!-- Examination start here -->
-        <section class="pt-[8px] lg:py-[50px] container px-5 ">
+        <section class="pt-[8px] lg:py-8 container px-5 ">
             <div class="bg-gray-2 rounded-3xl lg:rounded-[40px]">
                 <h1
-                    class="text-center font-semibold lg:font-bold text-[26px] lg:text-[32px] xl:text-[40px] max-w-[205px] lg:max-w-6xl mx-auto px-5 py-[30px] lg:py-[70px] capitalize">
+                    class="text-center font-semibold lg:font-bold text-[26px] lg:text-[32px] xl:text-[36px] max-w-[205px] lg:max-w-6xl mx-auto px-5 py-[30px] lg:py-14 capitalize">
                     registration form</h1>
             </div>
         </section>
 
         <!-- Form box  -->
-        <section class="py-10 lg:pt-0 xl:py-[50px] container px-5 ">
-            <div class="shadow-userboxshadow border border-[#E7F2F8] rounded-[30px] p-5 xl:p-10">
-                <form class="bg-[#F4F8FA] py-[18px] lg:py-[40px] 2xl:py-[60px] px-5 xl:px-[90px] rounded-2xl lg:rounded-[30px]">
-                    <div class="grid grid-cols-1 md:grid-cols-2 gap-x-[58px] gap-y-6 2xl:gap-y-[60px]">
+        <section class="py-10 lg:pt-0  max-w-[1000px] mx-auto px-5 ">
+            <div class="shadow-userboxshadow border border-[#E7F2F8] rounded-[30px] p-5 xl:p-8">
+                <form
+                    class="bg-[#F4F8FA] py-[18px] lg:py-[40px] 2xl:py-[60px] px-5 xl:px-10 rounded-2xl lg:rounded-[30px]">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-x-[24px] gap-y-5 ">
                         <!-- First Name  -->
                         <div class="space-y-2 lg:space-y-[10px]">
                             <label for="firstname"
-                                class="font-opensans block text-[13px] lg:text-[17px] text-gray-3 capitalize ms-1.5">first name</label>
+                                class="font-opensans block text-[13px] lg:text-base text-gray-3 capitalize ms-1.5">first
+                                name</label>
                             <div class="relative">
                                 <input type="text" id="firstname"
-                                    class="border border-[#D2E2EA] rounded-xl lg:rounded-[14px] w-full font-opensans text-[15px] lg:text-xl font-semibold text-gray-3 placeholder:text-gray-3 py-[17px] lg:py-5 px-[18px] lg:px-[26px]"
+                                    class="border border-[#D2E2EA] rounded-xl lg:rounded-[14px] w-full font-opensans text-[15px] lg:text-lg font-semibold text-gray-3 placeholder:text-gray-3 py-[17px] lg:py-4 px-[18px] lg:px-[26px]"
                                     placeholder="John">
                                 <div class="absolute top-1/2 -translate-y-1/2 right-[18px] lg:right-[26px]">
-                                    <img src="./img/user.svg" class="w-5 lg:w-6" alt="User">
+                                    <img src="./img/user.svg" class="w-4 lg:w-5" alt="User">
                                 </div>
                             </div>
                         </div>
                         <!-- last Name  -->
                         <div class="space-y-2 lg:space-y-[10px]">
                             <label for="lastname"
-                                class="font-opensans block text-[13px] lg:text-[17px] text-gray-3 capitalize ms-1.5">last name</label>
+                                class="font-opensans block text-[13px] lg:text-base text-gray-3 capitalize ms-1.5">last
+                                name</label>
                             <div class="relative">
                                 <input type="text" id="lastname"
-                                    class="border border-[#D2E2EA] rounded-xl lg:rounded-[14px] w-full font-opensans text-[15px] lg:text-xl font-semibold text-gray-3 placeholder:text-gray-3 py-[17px] lg:py-5 px-[18px] lg:px-[26px]"
+                                    class="border border-[#D2E2EA] rounded-xl lg:rounded-[14px] w-full font-opensans text-[15px] lg:text-lg font-semibold text-gray-3 placeholder:text-gray-3 py-[17px] lg:py-4 px-[18px] lg:px-[26px]"
                                     placeholder="Doe">
                                 <div class="absolute top-1/2 -translate-y-1/2 right-[18px] lg:right-[26px]">
-                                    <img src="./img/user.svg" class="w-5 lg:w-6" alt="User">
+                                    <img src="./img/user.svg" class="w-4 lg:w-5" alt="User">
                                 </div>
                             </div>
                         </div>
                         <!-- Email  -->
                         <div class="space-y-2 lg:space-y-[10px]">
                             <label for="email"
-                                class="font-opensans block text-[13px] lg:text-[17px] text-gray-3 capitalize ms-1.5">Email</label>
+                                class="font-opensans block text-[13px] lg:text-base text-gray-3 capitalize ms-1.5">Email</label>
                             <div class="relative">
                                 <input type="email" id="email"
-                                    class="border border-[#D2E2EA] rounded-xl lg:rounded-[14px] w-full font-opensans text-[15px] lg:text-xl font-semibold text-gray-3 placeholder:text-gray-3 py-[17px] lg:py-5 px-[18px] lg:px-[26px]"
+                                    class="border border-[#D2E2EA] rounded-xl lg:rounded-[14px] w-full font-opensans text-[15px] lg:text-lg font-semibold text-gray-3 placeholder:text-gray-3 py-[17px] lg:py-4 px-[18px] lg:px-[26px]"
                                     placeholder="JohnDoe123@gmail.com">
                                 <div class="absolute top-1/2 -translate-y-1/2 right-[18px] lg:right-[26px]">
-                                    <img src="./img/email.png" class="w-5 lg:w-6" alt="User">
+                                    <img src="./img/email.png" class="w-4 lg:w-5" alt="User">
                                 </div>
                             </div>
                         </div>
                         <!-- Phone  -->
                         <div class="space-y-2 lg:space-y-[10px]">
                             <label for="phone"
-                                class="font-opensans block text-[13px] lg:text-[17px] text-gray-3 capitalize ms-1.5">Phone</label>
+                                class="font-opensans block text-[13px] lg:text-base text-gray-3 capitalize ms-1.5">Phone</label>
                             <div class="relative">
                                 <input type="tel" id="phone"
-                                    class="border border-[#D2E2EA] rounded-xl lg:rounded-[14px] w-full font-opensans text-[15px] lg:text-xl font-semibold text-gray-3 placeholder:text-gray-3 py-[17px] lg:py-5 px-[18px] lg:px-[26px]"
+                                    class="border border-[#D2E2EA] rounded-xl lg:rounded-[14px] w-full font-opensans text-[15px] lg:text-lg font-semibold text-gray-3 placeholder:text-gray-3 py-[17px] lg:py-4 px-[18px] lg:px-[26px]"
                                     placeholder="+49 30 1234 5678">
                                 <div class="absolute top-1/2 -translate-y-1/2 right-[18px] lg:right-[26px]">
-                                    <img src="./img/call.png" class="w-5 lg:w-6" alt="User">
+                                    <img src="./img/call.png" class="w-4 lg:w-5" alt="User">
                                 </div>
                             </div>
                         </div>
                         <!-- Company  -->
                         <div class="space-y-2 lg:space-y-[10px]">
                             <label for="Company"
-                                class="font-opensans block text-[13px] lg:text-[17px] text-gray-3 capitalize ms-1.5">Company</label>
+                                class="font-opensans block text-[13px] lg:text-base text-gray-3 capitalize ms-1.5">Company</label>
                             <div class="relative">
                                 <input type="text" id="Company"
-                                    class="border border-[#D2E2EA] rounded-xl lg:rounded-[14px] w-full font-opensans text-[15px] lg:text-xl font-semibold text-gray-3 placeholder:text-gray-3 py-[17px] lg:py-5 px-[18px] lg:px-[26px]"
+                                    class="border border-[#D2E2EA] rounded-xl lg:rounded-[14px] w-full font-opensans text-[15px] lg:text-lg font-semibold text-gray-3 placeholder:text-gray-3 py-[17px] lg:py-4 px-[18px] lg:px-[26px]"
                                     placeholder="Deutsche Telekom">
                                 <div class="absolute top-1/2 -translate-y-1/2 right-[18px] lg:right-[26px]">
-                                    <img src="./img/company.svg" class="w-5 lg:w-6" alt="User">
+                                    <img src="./img/company.svg" class="w-4 lg:w-5" alt="User">
                                 </div>
                             </div>
                         </div>
                         <!-- Password  -->
                         <div class="space-y-2 lg:space-y-[10px]">
                             <label for="Password"
-                                class="font-opensans block text-[13px] lg:text-[17px] text-gray-3 capitalize ms-1.5">Password</label>
+                                class="font-opensans block text-[13px] lg:text-base text-gray-3 capitalize ms-1.5">Password</label>
                             <div class="relative">
                                 <input type="password" id="Password"
-                                    class="border border-[#D2E2EA] rounded-xl lg:rounded-[14px] w-full font-opensans text-[15px] lg:text-xl font-semibold text-gray-3 placeholder:text-gray-3 py-[17px] lg:py-5 px-[18px] lg:px-[26px]"
+                                    class="border border-[#D2E2EA] rounded-xl lg:rounded-[14px] w-full font-opensans text-[15px] lg:text-lg font-semibold text-gray-3 placeholder:text-gray-3 py-[17px] lg:py-4 px-[18px] lg:px-[26px]"
                                     placeholder="••••••••">
                                 <div class="absolute top-1/2 -translate-y-1/2 right-[18px] lg:right-[26px]">
-                                    <img src="./img/password.svg" class="w-5 lg:w-6" alt="User">
+                                    <img src="./img/password.svg" class="w-4 lg:w-5" alt="User">
                                 </div>
                             </div>
                         </div>
@@ -145,12 +149,14 @@
                     <div class="mt-4 lg:mt-6 space-y-[18px] lg:space-y-6">
                         <label class="flex  space-x-2 ">
                             <input type="checkbox" class="form-checkbox rounded-[6px] h-5 w-5 accent-green-1">
-                            <span class="flex-1 font-opensans block text-sm lg:text-[17px] text-gray-3 capitalize">I accept the privacy
+                            <span class="flex-1 font-opensans block text-sm lg:text-base text-gray-3 capitalize">I
+                                accept the privacy
                                 policy</span>
                         </label>
                         <label class="flex  space-x-2 ">
                             <input type="checkbox" class="form-checkbox rounded-[6px] h-5 w-5 accent-green-1">
-                            <span class="flex-1 font-opensans block text-sm lg:text-[17px] text-gray-3 capitalize">I accept the General
+                            <span class="flex-1 font-opensans block text-sm lg:text-base text-gray-3 capitalize">I
+                                accept the General
                                 Terms and Conditions</span>
                         </label>
                     </div>
@@ -158,13 +164,14 @@
             </div>
         </section>
         <!-- cta & btn  -->
-        <section class="pb-[50px] xl:py-20 max-w-[682px] mx-auto px-5 ">
+        <section class="pb-[50px] xl:py-0 max-w-[682px] mx-auto px-5 ">
             <div class="text-center">
-                    <a href="#"
-                        class="w-full md:w-auto text-white text-[22px] xl:text-3xl font-semibold flex-1 py-[22px] xl:py-[28px] bg-green-2 hover:bg-black-1 rounded-[20px] block border border-green-2 capitalize">create account</a>
+                <a href="#"
+                    class="w-full md:w-auto text-white text-[22px]  2xl:text-3xl md:text-2xl font-semibold flex-1 py-[22px] xl:py-[28px] bg-green-2 hover:bg-black-1 rounded-[20px] block border border-green-2 capitalize">create
+                    account</a>
             </div>
             <p
-                class="lg:mb-10 2xl:mb-[70px] mt-10 2xl:mt-20 text-center font-opensans font-normal text-base lg:text-[22px] 2xl:text-[28px] text-black-2 capitalize">
+                class="lg:mb-10 2xl:mb-[70px] mt-8  text-center font-opensans font-normal text-base md:text-xl 2xl:text-[28px] text-black-2 capitalize">
                 Already have an account?
                 <a href="#" class="text-green-1 hover:text-black-1 font-semibold">Sing in</a>
             </p>
